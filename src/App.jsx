@@ -1,23 +1,22 @@
+
 import Header from './Components/Header/Header';
-import './App.css'
-import Bottomnav from './Components/BottomNav/bottomNav';
-import Filterpanel from './Components/Filter/filter';
-import Content from './Components/contents/content';
+import Bottomnav from './Components/BottomNav/bottomNav'
+import FilterPanel from './Components/Filter/filter';
+
+
 
 function App() {
- 
   return (
-    <>
-     <div className="min-h-screen bg-gray-50">
-
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
       <Header />
-      <Filterpanel />
-      <Content />
-      <Bottomnav />
 
+      {/* Tabs and Filter */}
+    <FilterPanel/>
+      {/* Mobile Bottom Navigation */}
+     <Bottomnav />
     </div>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;
