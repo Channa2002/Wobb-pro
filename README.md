@@ -1,12 +1,32 @@
-# React + Vite
+# Wobb Pro - Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web application deployed at [Wobb Pro Live Site](https://wobb-pro-channas-projects-14a17baf.vercel.app/).  
+This guide will help you run the project locally on your machine.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these steps to set up and run the project locally:
 
-## Expanding the ESLint configuration
+### Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Then install the required packages:
+```bash
+npm install
+```
+
+## Then install taiwlind css
+
+
+## Start the Development Server
+``` bash
+npm run dev
+```
+
+## Visit http://localhost:3000 in your browser to view the project locally.
+
+
+
